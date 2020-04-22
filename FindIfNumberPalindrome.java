@@ -1,4 +1,4 @@
-package javaInterviewPrograms;
+
 
 public class FindIfNumberPalindrome {
 	// One way to check this

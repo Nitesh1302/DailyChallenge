@@ -1,4 +1,4 @@
-package javaInterviewPrograms;
+
 
 public class SwapTwoNUmberWithoutUsingThirdVariable {
 	public static void main(String args[]) {

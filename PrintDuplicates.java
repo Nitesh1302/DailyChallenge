@@ -2,7 +2,7 @@
 1. Print the duplicate numbers 
 2. Delete the duplicate numbers
 */
-package javaInterviewPrograms;
+
 
 import java.util.HashMap;
 import java.util.Map;
