@@ -1,5 +1,5 @@
 
-public class GenerateFourDigitNumberWithPositionalValues {
+public class B_GenerateFourDigitNumberWithPositionalValues {
 
 	public static void main(String[] args) {
 		int num = 9999;
