@@ -55,12 +55,12 @@ public class B_Patterns {
 	Scanner sc= new Scanner(System.in);
 	System.out.println("Enter the depth for the pattern");
 	int n= sc.nextInt();
-	//	drawPattern1(n);
-	//	drawPattern2(n);
-	//	drawPattern3(n);
-	//	drawPattern4(n);
+		drawPattern1(n);
+		drawPattern2(n);
+		drawPattern3(n);
+		drawPattern4(n);
 		drawPattern5(n);
-	//	drawPattern6(n);
+		drawPattern6(n);
 	}
 	
 	 public static void drawPattern1(int n) {
