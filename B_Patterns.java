@@ -21,7 +21,7 @@ Pattern 3
    1234321
   123454321   
   
-  
+hint- element number odd or even 
 Pattern 4
 0
 10
