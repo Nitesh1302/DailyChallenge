@@ -3,7 +3,7 @@ public class B_DisplayPrimeNumberBetweenARange {
 	
 	public static void main(String args[]) {
 	
-		displayAllPrimeNumberBetween(2,);
+		displayAllPrimeNumberBetween(2,50);
 	}
 
 	public static void displayAllPrimeNumberBetween(int a, int b){
