@@ -10,6 +10,7 @@ public class B_findFactorialNumber {
 		System.out.println(findFact(num));
 	}
 
+//Factorial with loop - way1
 	public static int findFact(int n) {
 		if(n==0||n==1) {
 			return 1;
@@ -20,4 +21,13 @@ public class B_findFactorialNumber {
 		}
 		return (p);
 	}
+	
+//factorial with recursion - Way 2
+	 public static int findFactorial(int n) {
+    if (n == 0) {
+      return 1;
+    } else {
+      return (n * findFact(n - 1));
+    }
+  }
 }
