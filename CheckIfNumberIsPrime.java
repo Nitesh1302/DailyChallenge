@@ -1,4 +1,4 @@
-
+Way1
 
 public class CheckIfNumberIsPrime {
 
@@ -21,3 +21,25 @@ public class CheckIfNumberIsPrime {
 	}
 }
 
+Way2 (To Print all prime numbers from an array )
+
+public class CheckIfNumberIsPrime {
+
+  public static void main(String args[]) {
+    int arr[] = {1, 2, 3, 5, 7, 11, 13, 17, 21, 23, 24, 67, 100, 103, 105};
+    checkPrimeNumbers(arr);
+  }
+
+  public static void checkPrimeNumbers(int arr[]) {
+    loop1:
+    for (int j = 0; j < arr.length; j++) {
+      loop2:
+      for (int i = 2; i < arr[j]; i++) {
+        if (arr[j] % i == 0) {
+          continue loop1;
+        }
+      }
+      System.out.print(arr[j] + " ");
+    }
+  }
+}
