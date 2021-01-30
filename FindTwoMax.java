@@ -35,7 +35,7 @@ public class FindTwoMax {
 				top2=top1;
 			top1=n;
 			}
-			else if(n>top2) {
+			else if(n!=top1&& n>top2) {
 				top2=n;
 			}
 		}
